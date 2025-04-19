@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBridge Innovations - IT Support & Cloud Solutions</title>
+    <meta name="description" content="Expert IT support, cybersecurity training, cloud migration, and RPA solutions for South African businesses.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="video/T.png" type="image/png">
+</head>
+<body>
+    <div class="min-h-screen flex flex-col">
+        <header class="sticky top-0 z-50 w-full border-b bg-white shadow">
+            <div class="container flex h-16 items-center justify-between">
+                <a href="#" class="flex items-center gap-2">
+                    <img
+                        src="video/T.png"
+                        alt="TechBridge Innovations Logo"
+                        width="40"
+                        height="40"
+                        class="rounded"
+                    />
+                    <span class="text-xl font-bold text-primary">TechBridge</span>
+                </a>
+                <nav class="hidden md:flex items-center gap-6">
+                    <a href="#about" class="text-sm font-medium hover-text-primary transition">About</a>
+                    <a href="#services" class="text-sm font-medium hover-text-primary transition">Services</a>
+                    <a href="#pricing" class="text-sm font-medium hover-text-primary transition">Pricing & Options</a>
+                    <a href="#events" class="text-sm font-medium hover-text-primary transition">Events</a>
+                    <a href="#why" class="text-sm font-medium hover-text-primary transition">Why IT Matters</a>
+                    <a href="#contact" class="text-sm font-medium hover-text-primary transition">Contact Us</a>
+                </nav>
+                <div class="flex md:hidden">
+                    <button id="mobile-nav-toggle" class="btn btn-icon" aria-label="Open menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div id="mobile-nav" class="mobile-nav">
+            <button id="mobile-nav-close" class="mobile-nav-close" aria-label="Close menu">&times;</button>
+            <div class="mobile-nav-links">
+                <a href="#about" class="mobile-nav-link">About</a>
+                <a href="#services" class="mobile-nav-link">Services</a>
+                <a href="#pricing" class="mobile-nav-link">Pricing & Options</a>
+                <a href="#events" class="mobile-nav-link">Events</a>
+                <a href="#why" class="mobile-nav-link">Why IT Matters</a>
+                <a href="#contact" class="mobile-nav-link">Contact Us</a>
+            </div>
+        </div>
+
+        <main class="flex-1">
+            <section class="hero-section">
+                <div class="hero-pattern"></div>
+                <div class="container relative z-10">
+                    <div class="grid gap-8 md:grid-cols-2 items-center">
+                        <div class="space-y-6 animate-fade-in">
+                            <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">
+                                Expert IT Support, Training & Cloud Solutions
+                            </h1>
+                            <p class="text-lg text-gray-600 max-w-md">
+                                Reliable IT support, practical cybersecurity & RPA training, strategic cloud migration, and automation services for South African businesses.
+                            </p>
+                            <div class="flex flex-wrap gap-4">
+                                <a href="#services" class="btn btn-primary">Explore Services</a>
+                                <a href="#contact" class="btn btn-outline btn-outline-primary">Get Support Now</a>
+                            </div>
+                        </div>
+                        <div class="relative h-64 md:h-96 animate-fade-in">
+                            <img
+                                src="video/portrait-smiling-engineer-wearing-headphones-data-center.jpg"
+                                alt="IT Support Services"
+                                class="object-cover rounded shadow-lg w-full h-full"
+                            />
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <section id="about" class="section section-white">
+                <div class="container">
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl font-bold text-gray-900">Bridging Technology and Business Needs</h2>
+                        <div class="section-divider"></div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div class="space-y-6">
+                            <p class="text-gray-700">
+                                Based in Randburg, Gauteng, TechBridge Innovations was founded to help South African businesses navigate the complexities of modern technology effectively. We understand the local market and are committed to providing practical, results-driven IT solutions.
+                            </p>
+                            <p class="text-gray-700">
+                                We bring dedicated expertise to solve your unique technology challenges, whether it's ensuring your systems are secure and efficient, empowering your team with new skills, or helping you leverage the cloud and automation for growth.
+                            </p>
+                            <div class="pt-4">
+                                <a href="#contact" class="btn btn-primary">Learn More About Us</a>
+                            </div>
+                        </div>
+                        <div class="relative h-64 md:h-80 rounded overflow-hidden shadow-xl">
+                            <img
+                                src="video/vecteezy_document-management-system-dms-online-documentation_43535268_000.webp"
+                                alt="About TechBridge Innovations concept image"
+                                class="object-cover w-full h-full"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" class="section section-gray">
+                <div class="container">
+                    <div class="text-center mb-16">
+                        <h2 class="text-3xl font-bold text-gray-900">Our Core Services</h2>
+                        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+                            Focused technology solutions to streamline operations, enhance security, and drive productivity. Engage services individually or explore comprehensive packages.
+                        </p>
+                        <div class="section-divider"></div>
+                    </div>
+
+                    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+                        <div class="card card-shadow hover-scale">
+                            <div class="card-header">
+                                <div class="icon-container">
+                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v-6m0 0V4m0 10h6M12 14H6"></path><rect x="3" y="4" width="18" height="16" rx="2"></rect></svg> </div>
+                                <h3 class="card-title">Expert IT Support</h3>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-gray-600">
+                                    Responsive remote IT support, troubleshooting, maintenance, and user assistance for SMEs. Keep your systems running smoothly.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="flex flex-col items-start gap-2">
+                                    <a href="#contact" class="text-primary font-medium text-sm hover-underline">Contact Us!</a>
+                                    <a href="mailto:support@techbridgeinnovations.zohodesk.com?subject=TechBridge%20Support%20Ticket&body=Hi%20TechBridge%20Support%2C%0A%0AI%20need%20assistance%20with%3A%0A%0A[Please%20describe%20your%20issue%20here]%0A%0AThanks%2C%0A[Your%20Name]" class="text-primary font-medium text-sm hover-underline">Log Ticket via Email</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card card-shadow hover-scale">
+                            <div class="card-header">
+                                <div class="icon-container">
+                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                                </div>
+                                <h3 class="card-title">Cybersecurity Training</h3>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-gray-600">
+                                    Practical training for employees to identify threats, protect data, and adhere to best practices (including POPIA awareness).
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="flex flex-col items-start gap-2">
+                                    <a href="#contact" class="text-primary font-medium text-sm hover-underline">Contact Us!</a>
+                                    <a href="https://calendly.com/lindiwe-linkedme/30min" class="text-primary font-medium text-sm hover-underline">Book Session</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card card-shadow hover-scale">
+                            <div class="card-header">
+                                <div class="icon-container">
+                                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path></svg>
+                                </div>
+                                <h3 class="card-title">Cloud Migration Strategy</h3>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-gray-600">
+                                    Expert guidance on planning and executing your move to cloud platforms like AWS, Azure, or Google Cloud for scalability and flexibility.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="flex flex-col items-start gap-2">
+                                    <a href="#contact" class="text-primary font-medium text-sm hover-underline">Contact Us!</a>
+                                    <a href="https://calendly.com/lindiwe-linkedme/30min" class="text-primary font-medium text-sm hover-underline">Book Consultation</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card card-shadow hover-scale">
+                            <div class="card-header">
+                                <div class="icon-container">
+                                     <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 9.5 11 13l-2-2"></path><path d="m11.6 16-.6-.6"></path><path d="m14 13 .6.6"></path><path d="M18.37 7.63A2.5 2.5 0 0 0 16.2 8.7l-1.1 1.1a2.5 2.5 0 1 0 3.54 3.54l1.1-1.1a2.5 2.5 0 0 0-1.17-4.6Z"></path><path d="M9.37 16.37A2.5 2.5 0 0 0 11.5 15.3l1.1-1.1a2.5 2.5 0 1 0-3.54-3.54l-1.1 1.1a2.5 2.5 0 0 0 1.41 4.5Z"></path></svg> </div>
+                                <h3 class="card-title">Robotic Process Automation</h3>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-gray-600">
+                                    Automate repetitive tasks, boost efficiency, and reduce errors with custom RPA solutions and training. Free up your team for higher-value work.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="flex flex-col items-start gap-2">
+                                    <a href="#contact" class="text-primary font-medium text-sm hover-underline">Contact Us!</a>
+                                    <a href="https://calendly.com/lindiwe-linkedme/30min" class="text-primary font-medium text-sm hover-underline">Discuss RPA Needs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-white">
+                <div class="container">
+                    <div class="grid md:grid-cols-2 gap-12 items-center">
+                        <div class="relative h-64 md:h-96 rounded overflow-hidden shadow-xl order-2 md:order-1">
+                             <img
+                                src="video/african-american-it-professional-types-programming-code-dual-monitors.jpg"
+                                alt="Diverse group of small business owners"
+                                class="object-cover w-full h-full"
+                            />
+                        </div>
+                        <div class="space-y-6 order-1 md:order-2">
+                            <h2 class="text-3xl font-bold text-gray-900">Focused Support for Growing Businesses</h2>
+                            <div class="h-1 w-20 bg-primary"></div>
+                            <p class="text-gray-700">
+                                We specialize in partnering with small to medium-sized enterprises (SMEs) across various sectors. Whether you're in Sasolburg, the Vaal Triangle, Gauteng, or operating elsewhere in South Africa, we offer accessible, expert remote support and consulting.
+                            </p>
+                            <p class="text-gray-700">
+                                Our goal is to help you leverage technology effectively, even with limited internal IT resources, turning tech challenges into growth opportunities and competitive advantages.
+                            </p>
+                            <div class="pt-4">
+                                <a href="https://calendly.com/lindiwe-linkedme/30min" class="btn btn-primary">Schedule a Consultation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="pricing" class="section section-gray">
+                <div class="container">
+                    <div class="text-center mb-16">
+                        <h2 class="text-3xl font-bold text-gray-900">Service Options & Pricing</h2>
+                        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+                            We offer flexible ways to engage our services, from ad-hoc support and individual training/consulting to structured support plans designed for peace of mind.
+                        </p>
+                        <div class="section-divider"></div>
+                    </div>
+
+                    <div class="mb-16">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">Individual Service Engagement</h3>
+                        <p class="text-center text-gray-600 mb-8">
+                            Need specific help without a monthly commitment? We offer:
+                        </p>
+
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="card card-shadow">
+                                <div class="card-header">
+                                    <h3 class="card-title">Ad-hoc IT Support</h3>
+                                    <p class="card-description">Pay-as-you-go remote support for troubleshooting and immediate assistance.</p>
+                                </div>
+                                <div class="card-content">
+                                    <p class="font-medium">Rate: Contact for current hourly rates.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#contact" class="btn btn-primary btn-full">Request Ad-hoc Support</a>
+                                </div>
+                            </div>
+
+                            <div class="card card-shadow">
+                                <div class="card-header">
+                                    <h3 class="card-title">Training & Consulting</h3>
+                                    <p class="card-description">
+                                        Book individual training sessions (Cybersecurity, RPA) or strategic consultations (Cloud Migration, IT Strategy).
+                                    </p>
+                                </div>
+                                <div class="card-content">
+                                    <p class="font-medium">Pricing varies based on scope - please inquire.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#contact" class="btn btn-primary btn-full">Inquire About Training/Consulting</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-8 text-center">Optional IT Support Plans</h3>
+                        <p class="text-center text-gray-600 mb-8">
+                            For businesses seeking predictable costs and proactive care, we offer these monthly IT support plans (per user/device model available upon consultation).
+                        </p>
+
+                        <div class="grid md:grid-cols-3 gap-8">
+                            <div class="card card-shadow flex flex-col">
+                                <div class="card-header">
+                                    <h3 class="card-title">Basic Plan</h3>
+                                    <p class="card-description">Essential remote assistance.</p>
+                                </div>
+                                <div class="card-content flex-1">
+                                    <div class="text-3xl font-bold mb-4">
+                                        R 407 <span class="text-base font-normal text-gray-600">/ month</span>
+                                    </div>
+                                    <ul class="space-y-2 text-sm">
+                                        <li class="flex items-start">
+                                            <svg class="icon-sm text-primary mr-2 mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            <span>Remote support during business hours</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                             <svg class="icon-sm text-primary mr-2 mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            <span>Standard troubleshooting</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                             <svg class="icon-sm text-primary mr-2 mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            <span>Email & Ticketing support</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer mt-auto">
+                                    <a href="#contact" class="btn btn-primary btn-full">Discuss Plans</a>
+                                </div>
+                            </div>
+
+                            <div class="card card-shadow relative border-2 border-primary flex flex-col">
+                                <div class="absolute top-0 right-0">
+                                    <span class="badge m-4">POPULAR</span>
+                                </div>
+                                <div class="card-header">
+                                    <h3 class="card-title">Standard Plan</h3>
+                                    <p class="card-description">Comprehensive & proactive care.</p>
+                                </div>
+                                <div class="card-content flex-1">
+                                    <div class="text-3xl font-bold mb-4">
+                                        R 537 <span class="text-base font-normal text-gray-600">/ month</span>
+                                    </div>
+                                    <ul class="space-y-2 text-sm">
+                                        <li class="flex items-start">
+                                             <svg class="icon-sm text-primary mr-2 mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            <span>All Basic Plan features</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                             <svg class="icon-sm text-primary mr-2 mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            <span>Priority response times</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                             <svg class="icon-sm text-primary mr-2 mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            <span>Monthly system health checks</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                             <svg class="icon-sm text-primary mr-2 mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            <span>Basic security monitoring & patching</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer mt-auto">
+                                     <a href="#contact" class="btn btn-primary btn-full">Discuss Plans</a>
+                                </div>
+                            </div>
+
+                            <div class="card card-shadow flex flex-col">
+                                <div class="card-header">
+                                    <h3 class="card-title">Premium Plan</h3>
+                                    <p class="card-description">Strategic IT partnership.</p>
+                                </div>
+                                <div class="card-content flex-1">
+                                    <div class="text-3xl font-bold mb-4">
+                                        R 775 <span class="text-base font-normal text-gray-600">/ month</span>
+                                    </div>
+                                    <ul class="space-y-2 text-sm">
+                                        <li class="flex items-start">
+                                             <svg class="icon-sm text-primary mr-2 mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            <span>All Standard Plan features</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                             <svg class="icon-sm text-primary mr-2 mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            <span>Extended hours / emergency support options</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                             <svg class="icon-sm text-primary mr-2 mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            <span>Quarterly IT strategy reviews</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <svg class="icon-sm text-primary mr-2 mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            <span>Advanced security monitoring & reporting</span>
+                                        </li>
+                                         <li class="flex items-start">
+                                            <svg class="icon-sm text-primary mr-2 mt-1 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                                            <span>Discounted project/consulting rates</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-footer mt-auto">
+                                     <a href="#contact" class="btn btn-primary btn-full">Discuss Plans</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <p class="text-center text-gray-500 mt-8 text-sm">*All plan prices are indicative and may be subject to VAT. Per user/device pricing available upon request.</p>
+                </div>
+            </section>
+
+             <section id="events" class="section section-white">
+                <div class="container">
+                    <div class="text-center mb-16">
+                        <h2 class="text-3xl font-bold text-gray-900">Upcoming Events & Workshops</h2>
+                        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+                            Join us for insightful sessions on technology trends relevant to your business. Enhance your knowledge and network with peers.
+                        </p>
+                        <div class="section-divider"></div>
+                    </div>
+
+                    <div class="grid gap-8 md:grid-cols-2">
+                        <div class="card card-shadow">
+                             <div class="card-header">
+                                <div class="flex items-start gap-4">
+                                    <div class="bg-primary-light p-3 rounded text-center min-w-[70px]">
+                                        <div class="text-2xl font-bold text-primary">15</div>
+                                        <div class="text-sm font-medium text-primary">MAY</div>
+                                        <div class="text-xs text-primary">2025</div>
+                                    </div>
+                                    <div>
+                                        <span class="badge mb-2">WEBINAR</span>
+                                        <h3 class="card-title">Free Webinar: Intro to POPIA Cybersecurity for SMEs</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-gray-600 mb-4">
+                                   Understand the basics of POPIA compliance and essential, practical cybersecurity measures your SME can implement today to protect sensitive data.
+                                </p>
+                                <div class="flex items-center gap-2 text-sm text-gray-500">
+                                    <svg class="icon-sm" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                    <span>Time: 10:00 AM - 11:00 AM SAST | Online</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#contact" class="btn btn-primary btn-full">Register Now</a>
+                            </div>
+                        </div>
+
+                        <div class="card card-shadow">
+                             <div class="card-header">
+                                <div class="flex items-start gap-4">
+                                    <div class="bg-primary-light p-3 rounded text-center min-w-[70px]">
+                                        <div class="text-2xl font-bold text-primary">05</div>
+                                        <div class="text-sm font-medium text-primary">JUN</div>
+                                        <div class="text-xs text-primary">2025</div>
+                                    </div>
+                                    <div>
+                                        <span class="badge mb-2">WORKSHOP</span>
+                                        <h3 class="card-title">Workshop: Cloud Basics for Small Businesses</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p class="text-gray-600 mb-4">
+                                    Demystifying the cloud: Learn about the benefits of AWS, Azure, and GCP fundamentals, and identify practical first steps for cloud adoption.
+                                </p>
+                                <div class="flex items-center gap-2 text-sm text-gray-500">
+                                    <svg class="icon-sm" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                    <span>Time: 2:00 PM - 4:00 PM SAST | Location: TBC (Randburg Area) / Online Option</span>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#contact" class="btn btn-primary btn-full">Register Now</a>
+                            </div>
+                        </div>
+                    </div>
+                     <p class="text-center text-gray-500 mt-8 text-sm">More events covering RPA and advanced topics coming soon!</p>
+                </div>
+            </section>
+
+            <section id="why" class="section section-gray">
+                <div class="container">
+                    <div class="text-center mb-16">
+                        <h2 class="text-3xl font-bold text-gray-900">Your Advantage with TechBridge</h2>
+                        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Why partner with us for your technology needs? We focus on practical value and long-term success.</p>
+                        <div class="section-divider"></div>
+                    </div>
+
+                    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                        <div class="bg-white p-6 rounded shadow-md hover-scale transition">
+                            <div class="icon-container">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg> </div>
+                            <h3 class="text-xl font-semibold mb-3">Local Understanding</h3>
+                            <p class="text-gray-600 text-sm">
+                                Based in Gauteng, South Africa, we understand the unique challenges and opportunities of the local business landscape, providing relevant solutions.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded shadow-md hover-scale transition">
+                            <div class="icon-container">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.4 10.6 16 16l-4-4-8 8"></path><path d="M18 4h3v3"></path></svg> </div>
+                            <h3 class="text-xl font-semibold mb-3">Responsive Support</h3>
+                            <p class="text-gray-600 text-sm">
+                                Quick response times via remote tools and practical solutions to minimize downtime and keep your business running smoothly.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded shadow-md hover-scale transition">
+                            <div class="icon-container">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3">Security & Compliance Focus</h3>
+                            <p class="text-gray-600 text-sm">
+                                Emphasis on cybersecurity best practices and POPIA awareness to protect your critical business and customer data.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded shadow-md hover-scale transition">
+                            <div class="icon-container">
+                               <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 4"></path><path d="m14.5 4-5 16"></path></svg> </div>
+                            <h3 class="text-xl font-semibold mb-3">Scalable Solutions</h3>
+                            <p class="text-gray-600 text-sm">
+                                Technology solutions designed to grow with your business, from foundational support to advanced cloud and automation strategies.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded shadow-md hover-scale transition">
+                            <div class="icon-container">
+                                 <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 9.5 11 13l-2-2"></path><path d="m11.6 16-.6-.6"></path><path d="m14 13 .6.6"></path><path d="M18.37 7.63A2.5 2.5 0 0 0 16.2 8.7l-1.1 1.1a2.5 2.5 0 1 0 3.54 3.54l1.1-1.1a2.5 2.5 0 0 0-1.17-4.6Z"></path><path d="M9.37 16.37A2.5 2.5 0 0 0 11.5 15.3l1.1-1.1a2.5 2.5 0 1 0-3.54-3.54l-1.1 1.1a2.5 2.5 0 0 0 1.41 4.5Z"></path></svg> </div>
+                            <h3 class="text-xl font-semibold mb-3">Automation Expertise</h3>
+                            <p class="text-gray-600 text-sm">
+                                Specialized knowledge in Robotic Process Automation (RPA) to help you reduce manual tasks, improve accuracy, and increase overall efficiency.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded shadow-md hover-scale transition">
+                            <div class="icon-container">
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path></svg>
+                            </div>
+                            <h3 class="text-xl font-semibold mb-3">Strategic Cloud Guidance</h3>
+                            <p class="text-gray-600 text-sm">
+                                Practical advice and strategic planning for moving your business operations to the cloud safely, cost-effectively, and efficiently.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-primary">
+                <div class="container text-center">
+                    <h2 class="text-3xl font-bold mb-6">Ready to transform your business with technology?</h2>
+                    <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
+                        Contact us today for a no-obligation discussion on how TechBridge Innovations can help your South African business leverage technology for growth and efficiency.
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <a href="#contact" class="btn btn-white">Schedule a Consultation</a>
+                        <a href="#services" class="btn btn-outline btn-outline-white">View Our Services</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section section-white">
+                <div class="container">
+                    <div class="text-center mb-16">
+                        <h2 class="text-3xl font-bold text-gray-900">Contact Us</h2>
+                        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+                            Have questions, need support, or ready to get started on a project? Reach out to our team using the form below or via our contact details.
+                        </p>
+                        <div class="section-divider"></div>
+                    </div>
+                    
+                    <div class="max-w-3xl mx-auto">
+                        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="bg-white p-8 rounded shadow-md">
+                            <input type="hidden" name="access_key" value="e79fd123-332f-4645-b01b-ab2083a37bb9">
+                            <div class="grid gap-6 md:grid-cols-2 mb-6">
+                                <div class="form-group">
+                                    <label for="first-name" class="form-label">First Name <span class="text-red-500">*</span></label>
+                                    <input type="text" id="first-name" name="first-name" required class="form-input">
+                                </div>
+                                <div class="form-group">
+                                    <label for="last-name" class="form-label">Last Name <span class="text-red-500">*</span></label>
+                                    <input type="text" id="last-name" name="last-name" required class="form-input">
+                                </div>
+                            </div>
+                            <div class="form-group mb-6">
+                                <label for="email" class="form-label">Email <span class="text-red-500">*</span></label>
+                                <input type="email" id="email" name="email" required class="form-input">
+                            </div>
+                            <div class="form-group mb-6">
+                                <label for="phone" class="form-label">Phone Number (Optional)</label>
+                                <input type="tel" id="phone" name="phone" class="form-input">
+                            </div>
+                            <div class="form-group mb-6">
+                                <label for="service" class="form-label">Service Interested In</label>
+                                <select id="service" name="service" class="form-select">
+                                    <option value="">-- Select a service --</option>
+                                    <option value="it-support">IT Support Plans</option>
+                                    <option value="adhoc-support">Ad-hoc IT Support</option>
+                                    <option value="cybersecurity">Cybersecurity Training</option>
+                                    <option value="cloud">Cloud Migration / Consulting</option>
+                                    <option value="rpa">Robotic Process Automation</option>
+                                    <option value="event-webinar">Webinar Registration</option>
+                                    <option value="event-workshop">Workshop Registration</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group mb-6">
+                                <label for="message" class="form-label">Message <span class="text-red-500">*</span></label>
+                                <textarea id="message" name="message" rows="4" required class="form-textarea"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                            <p id="form-status" class="mt-4 text-center"></p>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="grid gap-8 md:grid-cols-4">
+                    <div>
+                        <div class="flex items-center gap-2 mb-4">
+                            <img
+                                src="video/T.png"
+                                alt="TechBridge Innovations Logo White"
+                                width="40"
+                                height="40"
+                                class="rounded bg-white p-1"
+                            />
+                            <span class="text-xl font-bold text-white">TechBridge</span>
+                        </div>
+                        <p class="text-sm">Empowering South African businesses with practical technology solutions and expert support.</p>
+                    </div>
+
+                    <div>
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li><a href="#about" class="footer-link">About Us</a></li>
+                            <li><a href="#services" class="footer-link">Services</a></li>
+                            <li><a href="#pricing" class="footer-link">Pricing</a></li>
+                            <li><a href="#events" class="footer-link">Events</a></li>
+                             <li><a href="#why" class="footer-link">Why Choose Us</a></li>
+                             <li><a href="#contact" class="footer-link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer-title">Contact</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block mr-2 align-text-bottom"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                Randburg, Gauteng</li>
+                            <li>South Africa</li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block mr-2 align-text-bottom"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                <a href="mailto:lindiwe@linkedme.co.za" class="footer-link">info@techbridge.co.za</a>
+                            </li>
+                            <li>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inline-block mr-2 align-text-bottom"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                <a href="tel:+27123456789" class="footer-link">(+27)76 109 7412</a> </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer-title">Connect</h3>
+                        <div class="flex gap-4">
+                            <a href="#" class="footer-link" aria-label="Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                            </a>
+                            <a href="#" class="footer-link" aria-label="LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            </a>
+                            <a href="#" class="footer-link" aria-label="Twitter">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                            </a>
+                        </div>
+                         <p class="mt-4 text-sm">Follow us for updates and tips!</p>
+                    </div>
+                </div>
+
+                <div class="footer-divider">
+                    <p class="text-center text-xs">© 2025 TechBridge Innovations (Pty) Ltd. All Rights Reserved.</p>
+                    <p class="mt-1 text-center text-xs">Based in Randburg, Gauteng, South Africa.</p>
+                     <div class="text-center mt-2">
+                         <a href="#" class="text-xs footer-link">Privacy Policy</a>
+                         <span class="mx-2 text-gray-600">|</span>
+                         <a href="#" class="text-xs footer-link">Terms of Service</a>
+                     </div>
+                </div>
+            </div>
+        </footer>
+
+        <button id="scroll-to-top" class="scroll-to-top btn btn-primary btn-icon shadow-lg">
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+    <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zoho.com/widget?wc=siq4382a72fd9a8174ce5d6d63995f0833fcec402d8544378321e4b4ea92cfd7591" defer></script>
+    <script type='text/javascript'>window.ZOHOIM=window.ZOHOIM||function(a,b){ZOHOIM[a]=b;};window.ZOHOIM.prefilledMessage="Hi\x20there\x21\x20It\x27s\x20a\x20pleasure\x20to\x20see\x20you\x20stop\x20by,\x20how\x20ca\x20i\x20assist\x20you\x3F";(function(){var d=document;var s=d.createElement('script');s.type='text/javascript';s.defer=true;s.src="https://im.zoho.com/api/v1/public/channel/1adb180c80085651bc21abef99066839/widget";d.getElementsByTagName('head')[0].appendChild(s); })()</script>
+</body>
+</html>
